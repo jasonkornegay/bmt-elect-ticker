@@ -1,0 +1,84 @@
+{
+  "AppName" :  "2020 Election Ticker",
+  "Engine": [
+    {
+      "id": "0",
+      "name": "Testing Engine",
+      "connString1": "Server=enygdb1;Database=ElectionProd;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString2": "Server=enygdb1;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString3": "Server=enygdb1;Database=TouchScreen2020;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "network": "FBN",
+      "engineIP": "10.232.86.67",
+      "engineIP2": "10.232.86.66",
+      "enginePort": "6100",
+      "enginePort2": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "1",
+      "name": "NY Master Control FNC Primary",
+      "connString1": "Server=enygdb1;Database=ElectionProd;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString2": "Server=enygdb1;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString3": "Server=enygdb1;Database=TouchScreen2020;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "network": "FNC",
+      "engineIP": "10.232.112.97",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "2",
+      "name": "NY Master Control FNC Backup",
+      "connString1": "Server=enygdbbk1;Database=ElectionProd;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString2": "Server=enygdbbk1;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString3": "Server=enygdbbk1;Database=TouchScreen2020;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "network": "FNC",
+      "engineIP": "10.232.112.98",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "3",
+      "name": "NY Master Control FBN Primary",
+      "connString1": "Server=enygdb1;Database=ElectionProd;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString2": "Server=enygdb1;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString3": "Server=enygdb1;Database=TouchScreen2020;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "network": "FBN",
+      "engineIP": "10.232.112.85",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "4",
+      "name": "NY Master Control FBN Backup",
+      "connString1": "Server=enygdbbk1;Database=ElectionProd;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString2": "Server=enygdbbk1;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "connString3": "Server=enygdbbk1;Database=TouchScreen2020;Uid=gfxuser;Pwd=elect2018;Connection Timeout=30;",
+      "network": "FBN",
+      "engineIP": "10.232.112.86",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "5",
+      "name": "DC Master Control FNC",
+      "connString1": "Server=dcgfxprod;Database=ElectionProd;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "connString2": "Server=dcgfxprod;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "connString3": "Server=dcgfxprod;Database=TouchScreen2020;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "network": "FNC",
+      "engineIP": "10.232.133.22",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    },
+    {
+      "id": "6",
+      "name": "DC Master Control FBN",
+      "connString1": "Server=dcgfxprod;Database=ElectionProd;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "connString2": "Server=dcgfxprod;Database=VizStackmasterStackData;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "connString3": "Server=dcgfxprod;Database=TouchScreen2020;Uid=gfxuser;Pwd=M1dt3rm@FNC20!8;Connection Timeout=30;",
+      "network": "FBN",
+      "engineIP": "10.232.133.151",
+      "enginePort": "6100",
+      "listeningPort": "50001"
+    }
+  ]
+}
